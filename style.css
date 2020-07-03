@@ -71,6 +71,10 @@ a {
     margin: 40px auto;
 }
 
+.container-date {
+    margin: 50px auto;
+}
+
 @media(max-width:500px){
     h1{
         font-size: 2rem;
@@ -89,3 +93,4 @@ a {
         margin:0;
     }
 }
+
