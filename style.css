@@ -67,6 +67,10 @@ a {
     color: orange
 }
 
+.message {
+    margin: 40px auto;
+}
+
 @media(max-width:500px){
     h1{
         font-size: 2rem;

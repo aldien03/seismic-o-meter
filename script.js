@@ -6,6 +6,12 @@ const minutes = document.getElementById("minutes");
 const seconds = document.getElementById("seconds");
 const countdown = document.getElementById("countdown");
 
+// Test prompt
+// const userCXdate = prompt("When will be our crew change date?");
+// console.log(userCXdate);
+
+// const setCXdate = document.getElementById(setCXdate).onclick;
+
 // Set crew change dates //Hard-code test
 const cxDate = new Date("August 01 2020 00:00:00");
 
@@ -21,7 +27,6 @@ function remainingCX() {
   //   console.log(remainingDay);
   let remainingHour = Math.floor(timeToCX / 1000 / 60 / 60) % 24;
   //   console.log(remainingHour);
-  //   console.log(tempMinute);
   let remainingMinute = Math.floor(timeToCX / 1000 / 60) % 60;
   //   console.log(remainingMinute);
   let remainingSecond = Math.floor(timeToCX / 1000) % 60;
